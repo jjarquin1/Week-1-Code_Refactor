@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*grouped all classes with h2 to a single tag*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*grouped all h3 tags into a single class*/
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#seo {
+    color: #d9dcd6;
+}
+/*changed this tag to specify the nav bar*/
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+ul {
+ list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/*replaced .float-left and .float-right with ids that correlate with the html index*/
+#img-1 {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+#img-2 {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
+}
+
+#img-3 {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*grouped seperate benefits into a single class*/
+.benefit{
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*grouped all images under benefits to a single class*/
+.img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*changed classes into ids for the following*/
+/*removed image height from classes and addded it under corresponding id's*/
+#search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+#online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+#social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*removed image height from classes and addded it under corresponding id's*/
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
